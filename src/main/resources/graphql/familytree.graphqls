@@ -21,4 +21,5 @@ extend type Query {
 
 type Mutation {
     createPerson(name: String!): Person!
+    createRelationship(from: String!, to: String!, type: String!): Relationship!
 }
